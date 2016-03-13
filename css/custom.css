@@ -7,6 +7,16 @@
 }*/
 .heading-main {
   font-family: 'Lobster', cursive;
+
+}
+
+@media (min-width: 768px) {
+  .cover-heading {
+      font-size: 5em;
+  }
+  .lead {
+      font-size: 4em;
+    }
 }
 
 /*body {
