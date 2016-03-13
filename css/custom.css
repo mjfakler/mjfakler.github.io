@@ -19,6 +19,13 @@
     }
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 /*body {
   background: url('../images/banner.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
