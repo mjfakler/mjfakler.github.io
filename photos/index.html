@@ -14,7 +14,8 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/custom.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="https://fonts.googleapis.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -23,6 +24,15 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        @media (min-width: 768px) {
+            .cover {
+               padding-top: 100px;
+            }
+        }
+
+    </style>
 </head>
 <body>
 <div class="site-wrapper">
@@ -30,7 +40,7 @@
         <div class="cover-container">
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h3 class="masthead-brand heading-main"><a href="../" >#MeetTheFaklers</a></h3>
+                    <h3 class="masthead-brand heading-main"><a href="../">#MeetTheFaklers</a></h3>
                     <nav>
                         <ul class="nav masthead-nav">
                             <li><a href="../places">Places</a></li>
@@ -42,26 +52,187 @@
                 </div>
             </div>
             <div class="inner cover">
-                <div class="row ">
-                    <div class="col-md-6">
-                        <a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=543201102&pwsurl="
-                           target="_blank">
-                            <img class="img-rounded"
-                                 src="../images/bedBathAndBeyond.svg"
-                                 alt="Bed Bath and Beyond"
-                                 width="300"
-                                 height="200"/>
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="http://www.target.com/gift-registry/registry/h3Xo5MTT9x-_8W5UFAu1_Q"
-                           target="_blank">
-                            <img src="../images/targetLogo.svg"
-                                 alt="Target"
-                                 width="150"
-                                 height="200">
-                        </a>
-                    </div>
+                <div id="links">
+                    <a href="../images/photos/img01.jpg" title="Photo 01" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img01.jpg">
+                    </a>
+                    <a href="../images/photos/img02.jpg" title="Photo 02" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img02.jpg">
+                    </a>
+                    <a href="../images/photos/img03.jpg" title="Photo 03" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img03.jpg">
+                    </a>
+                    <a href="../images/photos/img04.jpg" title="Photo 04" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img04.jpg">
+                    </a>
+                    <a href="../images/photos/img05.jpg" title="Photo 05" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img05.jpg">
+                    </a>
+                    <a href="../images/photos/img06.jpg" title="Photo 06" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img06.jpg">
+                    </a>
+                    <a href="../images/photos/img07.jpg" title="Photo 07" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img07.jpg">
+                    </a>
+                    <a href="../images/photos/img08.jpg" title="Photo 08" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img08.jpg">
+                    </a>
+                    <a href="../images/photos/img09.jpg" title="Photo 09" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img09.jpg">
+                    </a>
+                    <a href="../images/photos/img10.jpg" title="Photo 10" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img10.jpg">
+                    </a>
+                    <a href="../images/photos/img11.jpg" title="Photo 11" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img11.jpg">
+                    </a>
+                    <a href="../images/photos/img12.jpg" title="Photo 12" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img12.jpg">
+                    </a>
+                    <a href="../images/photos/img13.jpg" title="Photo 13" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img13.jpg">
+                    </a>
+                    <a href="../images/photos/img14.jpg" title="Photo 14" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img14.jpg">
+                    </a>
+                    <a href="../images/photos/img15.jpg" title="Photo 15" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img15.jpg">
+                    </a>
+                    <a href="../images/photos/img16.jpg" title="Photo 16" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img16.jpg">
+                    </a>
+                    <a href="../images/photos/img17.jpg" title="Photo 17" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img17.jpg">
+                    </a>
+                    <a href="../images/photos/img18.jpg" title="Photo 18" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img18.jpg">
+                    </a>
+                    <a href="../images/photos/img19.jpg" title="Photo 19" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img19.jpg">
+                    </a>
+                    <a href="../images/photos/img20.jpg" title="Photo 20" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img20.jpg">
+                    </a>
+                    <a href="../images/photos/img21.jpg" title="Photo 21" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img21.jpg">
+                    </a>
+                    <a href="../images/photos/img22.jpg" title="Photo 22" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img22.jpg">
+                    </a>
+                    <a href="../images/photos/img23.jpg" title="Photo 23" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img23.jpg">
+                    </a>
+                    <a href="../images/photos/img24.jpg" title="Photo 24" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img24.jpg">
+                    </a>
+                    <a href="../images/photos/img25.jpg" title="Photo 25" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img25.jpg">
+                    </a>
+                    <a href="../images/photos/img26.jpg" title="Photo 26" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img26.jpg">
+                    </a>
+                    <a href="../images/photos/img27.jpg" title="Photo 27" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img27.jpg">
+                    </a>
+                    <a href="../images/photos/img28.jpg" title="Photo 28" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img28.jpg">
+                    </a>
+                    <a href="../images/photos/img29.jpg" title="Photo 29" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img29.jpg">
+                    </a>
+                    <a href="../images/photos/img30.jpg" title="Photo 30" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img30.jpg">
+                    </a>
+                    <a href="../images/photos/img31.jpg" title="Photo 31" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img31.jpg">
+                    </a>
+                    <a href="../images/photos/img32.jpg" title="Photo 32" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img32.jpg">
+                    </a>
+                    <a href="../images/photos/img33.jpg" title="Photo 33" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img33.jpg">
+                    </a>
+                    <a href="../images/photos/img34.jpg" title="Photo 34" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img34.jpg">
+                    </a>
+                    <a href="../images/photos/img35.jpg" title="Photo 35" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img35.jpg">
+                    </a>
+                    <a href="../images/photos/img36.jpg" title="Photo 36" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img36.jpg">
+                    </a>
+                    <a href="../images/photos/img37.jpg" title="Photo 37" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img37.jpg">
+                    </a>
+                    <a href="../images/photos/img38.jpg" title="Photo 38" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img38.jpg">
+                    </a>
+                    <a href="../images/photos/img39.jpg" title="Photo 39" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img39.jpg">
+                    </a>
+                    <a href="../images/photos/img40.jpg" title="Photo 40" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img40.jpg">
+                    </a>
+                    <a href="../images/photos/img41.jpg" title="Photo 41" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img41.jpg">
+                    </a>
+                    <a href="../images/photos/img42.jpg" title="Photo 42" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img42.jpg">
+                    </a>
+                    <a href="../images/photos/img43.jpg" title="Photo 43" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img43.jpg">
+                    </a>
+                    <a href="../images/photos/img44.jpg" title="Photo 44" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img44.jpg">
+                    </a>
+                    <a href="../images/photos/img45.jpg" title="Photo 45" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img45.jpg">
+                    </a>
+                    <a href="../images/photos/img46.jpg" title="Photo 46" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img46.jpg">
+                    </a>
+                    <a href="../images/photos/img47.jpg" title="Photo 47" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img47.jpg">
+                    </a>
+                    <a href="../images/photos/img48.jpg" title="Photo 48" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img48.jpg">
+                    </a>
+                    <a href="../images/photos/img49.jpg" title="Photo 49" data-gallery>
+                        <img class="img-rounded" src="../images/thumbnails/img49.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -75,5 +246,8 @@
 <script src="../js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../js/ie10-viewport-bug-workaround.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
 </body>
 </html>
