@@ -98,16 +98,6 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
-
 /*
  * Cover
  */
@@ -130,6 +120,12 @@ body {
     position: fixed;
     top: 0;
   }
+   .masthead-brand {
+      float: left;
+    }
+    .masthead-nav {
+      float: right;
+    }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
@@ -139,6 +135,12 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  .cover-heading {
+         font-size: 5em;
+     }
+     .lead {
+         font-size: 4em;
+       }
 }
 
 @media (min-width: 992px) {
@@ -148,22 +150,9 @@ body {
   }
 }
 
-/*
- * Custom
- */
- 
  .heading-main {
    font-family: 'Lobster', cursive;
  
- }
- 
- @media (min-width: 768px) {
-   .cover-heading {
-       font-size: 5em;
-   }
-   .lead {
-       font-size: 4em;
-     }
  }
  
  input:focus,
