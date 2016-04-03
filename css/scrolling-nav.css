@@ -132,18 +132,10 @@ of those sections to manage the look and feel of the site. */
     overflow: hidden;
 }
 
-.places-section {
+.odd-section {
     background: #fff;
 }
 
-.hotels-section {
-    background: #eee;
-}
-
-.photos-section {
-    background: #fff;
-}
-
-.registry-section {
+.even-section {
     background: #eee;
 }
