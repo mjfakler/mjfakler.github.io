@@ -12,7 +12,7 @@
     <title>#MeetTheFaklers</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
@@ -62,10 +62,10 @@
                     <a class="page-scroll" href="#event">Event Info</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#photos">Photos</a>
+                    <a class="page-scroll" href="#registry">Registry</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#registry">Registry</a>
+                    <a class="page-scroll" href="#photos">Photos</a>
                 </li>
             </ul>
         </div>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-title">I need cute things to put here, K?</h1>
+                    <h1 class="section-title">In progress!</h1>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-title">Thinking just photos and maybe bios if we can get them?</h1>
+                    <h1 class="section-title">Under construction!</h1>
                 </div>
             </div>
         </div>
@@ -131,10 +131,10 @@
             </div>
             <div class="row ">
                 <div class="col-md-6">
-                    <img class="img-circle"
-                         src="/img/allSaints.jpg"
+                    <img class="img"
+                         src="/img/allSaints.png"
                          alt="All Saints Catholic Church"
-                         width="140"
+                         width="auto"
                          height="140">
                     <h2>Ceremony</h2>
                     <p>Mass will be at All Saints Catholic Church in Lakeville Minnesota @ 2 pm July 9,
@@ -160,36 +160,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="section-subtitle">Need a place to stay?<br>We have blocks at these hotels!</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img-circle"
-                         src="/img/springHillSuites.jpg"
-                         alt="SpringHill Suites"
-                         width="140"
-                         height="140">
-                    <h2>SpringHill Suites</h2>
-                    <p><a class="btn btn-default"
-                          href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Fakler/Bellefeuille%20Wedding%5EMSPSH%60FAKFAKL%7CFAKFAKM%60119-129.00%60USD%60false%605%607/8/16%607/10/16%606/8/16&app=resvlink&stop_mobi=yes"
-                          role="button">
-                        Book Room »
-                    </a>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-circle"
-                         src="/img/hiltonGardenInn.jpg"
-                         alt="Hilton Garden Inn"
-                         width="140"
-                         height="140">
-                    <h2>Hilton Garden Inn</h2>
-                    <p><a class="btn btn-default"
-                          href="#"
-                          role="button">
-                        Book Room »</a>
-                    </p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                        Need a place to stay?
+                    </button>
                 </div>
             </div>
         </div>
@@ -198,11 +171,47 @@
 
 <section class="section-separator separator-3"></section>
 
+<!-- Registry Section -->
+<section id="registry" class="section odd-section">
+    <div class="inner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-title">Check out our registry!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=543201102&pwsurl="
+                       target="_blank">
+                        <img class="registry-logo bedBathAndBeyond-logo"
+                             width="300"
+                             height="200">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="http://www.target.com/gift-registry/registry/h3Xo5MTT9x-_8W5UFAu1_Q"
+                       target="_blank">
+                        <img class="registry-logo target-logo"
+                             width="150"
+                             height="200">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-separator separator-4"></section>
+
 <!-- Photos Section -->
 <section id="photos" class="section even-section">
     <div class="inner-section">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-title">More Photos!</h1>
+                </div>
                 <div class="col-lg-12">
                     <!--<h1 class="section-title">Photos coming soon! I promise!</h1>-->
                     <div id="links">
@@ -345,38 +354,47 @@
     </div>
 </section>
 
-<section class="section-separator separator-4"></section>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
 
-<!-- Registry Section -->
-<section id="registry" class="section odd-section">
-    <div class="inner-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-title">Check out our registry by clicking the stores below!</h1>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="section-subtitle">Need a place to stay?<br>We have blocks at these hotels!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <a href="http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=543201102&pwsurl="
-                       target="_blank">
-                        <img class="registry-logo bedBathAndBeyond-logo"
-                             width="300"
-                             height="200">
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="http://www.target.com/gift-registry/registry/h3Xo5MTT9x-_8W5UFAu1_Q"
-                       target="_blank">
-                        <img class="registry-logo target-logo"
-                             width="150"
-                             height="200">
-                    </a>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="hotel-logo">
+                            <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Fakler/Bellefeuille%20Wedding%5EMSPSH%60FAKFAKL%7CFAKFAKM%60119-129.00%60USD%60false%605%607/8/16%607/10/16%606/8/16&app=resvlink&stop_mobi=yes"
+                               target="blank_">
+                                <img src="/img/springHillSuites.png"
+                                     alt="SpringHill Suites"
+                                     width="auto"
+                                     height="140">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="hotel-logo">
+                            <a href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/M/MSPEHGI-BFW-20160708/index.jhtml?WT.mc_id=POG"
+                               target="blank_">
+                                <img src="/img/hiltonGardenInn.jpg"
+                                     alt="Hilton Garden Inn"
+                                     width="auto"
+                                     height="140">
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
-</section>
+</div>
 
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <!-- The container for the modal slides -->

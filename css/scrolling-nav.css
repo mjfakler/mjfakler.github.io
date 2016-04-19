@@ -54,6 +54,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .section {
+     padding-top: 150px;
      height: 100%;
      width: 100%;
      text-align: center;
@@ -170,6 +171,10 @@ background: url('/img/photos/img03.jpg') no-repeat center top fixed;
 
 .target-logo:hover {
     background: #CC0000;
+}
+
+.hotel-logo {
+    text-align: center;
 }
 
 #links {
