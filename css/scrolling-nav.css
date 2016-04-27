@@ -62,10 +62,6 @@ of those sections to manage the look and feel of the site. */
      overflow: hidden;
 }
 
-.separator-1 {
-background: url('/img/photos/img01.jpg') no-repeat center top fixed;
-}
-
 .separator-2 {
 background: url('/img/photos/img02.jpg') no-repeat center top fixed;
 }
