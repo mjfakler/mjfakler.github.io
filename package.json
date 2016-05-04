@@ -1,0 +1,24 @@
+{
+  "name": "mjfakler",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjfakler/mjfakler.github.io.git"
+  },
+  "author": "mjfakler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjfakler/mjfakler.github.io/issues"
+  },
+  "homepage": "https://github.com/mjfakler/mjfakler.github.io#readme",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0"
+  }
+}
