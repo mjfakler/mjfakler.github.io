@@ -126,36 +126,6 @@ h2 {
     background: #eee;
 }
 
-.registry-logo {
-    background: #777;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-}
-
-.bedBathAndBeyond-logo {
-    width: 300px;
-    height: 200px;
-    background-size: 300px 200px;
-    -webkit-mask: url(/img/bedBathAndBeyond.svg) center / contain no-repeat;
-}
-
-.bedBathAndBeyond-logo:hover {
-    background: #384A9C;
-}
-
-.target-logo {
-    width: 150px;
-    height: 200px;
-    background-size: 150px 200px;
-    -webkit-mask: url(/img/targetLogo.svg) center / contain no-repeat;
-}
-
-.target-logo:hover {
-    background: #CC0000;
-}
-
 .hotel-logo {
     text-align: center;
 }
